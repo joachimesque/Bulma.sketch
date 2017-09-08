@@ -2,9 +2,11 @@
 
 **Bulma.sketch** is a Sketch file (<https://www.sketchapp.com/>) for Bulma CSS Framework (<http://bulma.io>).
 
-Bulma version : **v0.5.1**
+Bulma has been developed by Jeremy Thomas <http://jgthms.com/>, released under a MIT License : <https://opensource.org/licenses/mit-license.php>.
 
-## How is it used ?
+Bulma.sketch is released under a MIT License.
+
+Bulma version : **v0.5.1**
 
 ## Basics
 
