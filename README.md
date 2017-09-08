@@ -66,7 +66,7 @@ All these variants are available through `Symbol > typography`.
 
 E.g.: for a text with Bulma classes `.has-text-danger.is-size-3.has-text-centered`, the Symbol to insert is found at `Symbol > typography/has-text-danger/is-size-3 has-text-c`
 
-#### Remarks :
+#### Remarks
 
 `is-lowercase` and `is-uppercase` could be added, but it will add mostly unnecessary Symbols to an already heavy Symbol collection. `is-capitalized` wouldn't be possible.
 
@@ -89,7 +89,7 @@ There are 4 size variants for 2 types of fields :
 
 The **input** field can be changed to a **select** field through the `input` select on the Overrides panel.
 
-For the icons variants on the input fields, see next section, [Input](#form-input).
+For the icons variants on the input fields, see next section, [Input](#input).
 
 **Radio** and **checkbox** fields are also available, though they do not have size variants. They can be used as-is (change the text in the Overrides panel), or if you need styled text (bold, link color…) you have to `Detach from Symbol`.
 
@@ -100,9 +100,9 @@ File upload inputs haven't been made available as fields.
 #### TODO
 
 - Horizontal fields
-- Fields with addons (same problem as with [Buttons](#elements-button), re: rectangle radius)
+- Fields with addons (same problem as with [Buttons](#button), re: rectangle radius)
 
-### Input [form-input]
+### Input
 
 [Bulma ref.](http://bulma.io/documentation/form/input/)
 
@@ -114,10 +114,10 @@ The border color can be changed via the `border` select in the Overrides panel.
 
 The text can be changed in the Overrides panel. Because of limitations in Sketch, I have separated the styles for placeholder text and filled text (placeholder text is lighter, filled text is darker, it's the text displayed in the input once you've filled it). In the Overrides panel, filled text is empty and the placeholder has been used.
 
-See the [icon element](#elements-icon) to learn more about changing the icon displayed.
+See the [icon element](#icon) to learn more about changing the icon displayed.
 
 
-### Textarea [form-textarea]
+### Textarea
 
 [Bulma ref.](http://bulma.io/documentation/form/textarea/)
 
@@ -129,7 +129,7 @@ The border color can be changed via the `border` select in the Overrides panel.
 
 The text can be changed in the Overrides panel. Because of limitations in Sketch, I have separated the styles for placeholder text and filled text (placeholder text is lighter, filled text is darker, it's the text displayed in the input once you've filled it). In the Overrides panel, filled text is empty and the placeholder has been used.
 
-### Select [form-select]
+### Select
 
 [Bulma ref.](http://bulma.io/documentation/form/select/)
 
@@ -143,10 +143,10 @@ The border color can be changed via the `border` select in the Overrides panel.
 
 The text can be changed in the Overrides panel. Because of limitations in Sketch, I have separated the styles for placeholder text and selected text (placeholder text is lighter, selected text is darker, it's the text displayed in the select once you've selected one option). In the Overrides panel, selected text is empty and the placeholder has been used.
 
-See the [icon element](#elements-icon) to learn more about changing the icon displayed.
+See the [icon element](#icon) to learn more about changing the icon displayed.
 
 
-### Radio [form-checkbox]
+### Radio
 
 [Bulma ref.](http://bulma.io/documentation/form/checkbox/)
 
@@ -155,7 +155,7 @@ See the [icon element](#elements-icon) to learn more about changing the icon dis
 One checked variant is available.
 
 
-### Radio [form-radio]
+### Radio
 
 [Bulma ref.](http://bulma.io/documentation/form/radio/)
 
@@ -164,7 +164,7 @@ One checked variant is available.
 One checked variant is available.
 
 
-### File [form-file]
+### File
 
 [Bulma ref.](http://bulma.io/documentation/form/file/)
 
@@ -180,13 +180,13 @@ To display an input with the CTA and the name, you have to combine the right `fi
 
 ## Elements
 
-### Box [elements-box]
+### Box
 
 [Bulma ref.](http://bulma.io/documentation/elements/box/)
 
 **A simple white box to be found at `Symbol > elements/box`. No variants, nothing else.**
 
-### Button [elements-button]
+### Button
 
 [Bulma ref.](http://bulma.io/documentation/elements/button/)
 
@@ -205,23 +205,23 @@ When using a derived color (like `Symbol > colors/primary`) you will have anothe
 
 Buttons have three variants with icons. Two of them display text and icon (icon to the left or to the right of the text) one displays only an icon in a square button.
 
-See the [icon element](#elements-icon) to learn more about changing the icon displayed.
+See the [icon element](#icon) to learn more about changing the icon displayed.
 
 #### TODO
 
 Button groups with addons. As I can’t use Symbols as masks I can’t make it customisable through overrides, so I have to duplicate all button Symbols to change the border radiuses.
 
-### Content [elements-content]
+### Content
 
 Currently unavailable.
 
-### Delete [elements-delete]
+### Delete
 
 [Bulma ref.](http://bulma.io/documentation/elements/delete/)
 
 **A delete cross in a semi-transparent circle, available in 4 sizes at `Symbol > elements/delete`**
 
-### Icon [elements-icon]
+### Icon
 
 [Bulma ref.](http://bulma.io/documentation/elements/icon/)
 
@@ -235,13 +235,13 @@ When inserting  an icon element Symbol, you can modify the icon itself through t
 
 Would it be wise to get all the icons from FontAwesome as Symbols? I don't think it'd be wise, as there are 4 different sizes (and a few hundred of icons).
 
-### Image [elements-image]
+### Image
 
 Currently unavailable.
 
 
 
-### Notification [elements-notification]
+### Notification
 
 [Bulma ref.](http://bulma.io/documentation/elements/notification/)
 
@@ -251,7 +251,7 @@ There are two Symbols for this element. The background and the complete notifica
 
 How to use? Insert `Symbol > elements/notification/notification` and change the text through the Overrides panel. If you need bold & links, you'll have to *Detach from Symbol* so you can edit the text. The rest of the group will be the `notification-layout` Symbol.
 
-### Progress [elements-progress]
+### Progress
 
 [Bulma ref.](http://bulma.io/documentation/elements/progress/)
 
