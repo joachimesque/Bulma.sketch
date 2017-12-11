@@ -1,18 +1,27 @@
 # Bulma.sketch UI Kit
 
-**Bulma.sketch** is a Sketch file (<https://www.sketchapp.com/>) for Bulma CSS Framework (<http://bulma.io>).
+**Bulma.sketch** is a Sketch Library file (<https://www.sketchapp.com/>) for Bulma CSS Framework (<http://bulma.io>).
 
 Bulma has been developed by Jeremy Thomas <http://jgthms.com/>, released under a MIT License : <https://opensource.org/licenses/mit-license.php>.
 
 Bulma.sketch is released under a MIT License.
 
-Bulma version : **v0.5.1**
+Bulma version : **v0.6.1**
+Sketch version compatibility : **Sketch 48**
+
+## How does it work?
+
+Bulma.sketch is a Sketch Library containing Symbols designed after Bulma CSS Framework.
+
+Sketch Libraries are pretty new (Sketch 47 onwards), [read the docs](https://sketchapp.com/learn/documentation/libraries/) to know how to use them.
+
+Text styles (used for Titles) are not importable like Library Symbols.
 
 ## Basics
 
 ### Colors
 
-**Bulma.sketch uses colors as Symbols for background and border colors. `Symbol > colors` contains initial colors (`$turquoise`, `$blue`, `$yellow`…) and derived colors (`$primary`, `$info`, `$warning`…)**
+**Bulma.sketch uses colors as Symbols for background and border colors. `Insert > Bulma/colors` contains initial colors (`$turquoise`, `$blue`, `$yellow`…) and derived colors (`$primary`, `$info`, `$warning`…)**
 
 #### Initial colors
 
@@ -20,24 +29,25 @@ Bulma version : **v0.5.1**
 
 | Bulma variable | Symbol path |
 |:--|:--|
-|  `$black`   |   `Symbol > colors/black`  |
-|  `$black-bis`   |   `Symbol > colors/black-bis`  |
-|  `$black-ter`   |   `Symbol > colors/black-ter`  |
-|  `$grey-darker`   |   `Symbol > colors/grey-darker`  |
-|  `$grey-dark`   |   `Symbol > colors/grey-dark`  |
-|  `$grey`   |   `Symbol > colors/grey`  |
-|  `$grey-light`   |   `Symbol > colors/grey-light`  |
-|  `$grey-lighter`   |   `Symbol > colors/grey-lighter`  |
-|  `$white-ter`   |   `Symbol > colors/white-ter`  |
-|  `$white-bis`   |   `Symbol > colors/white-bis`  |
-|  `$white`   |   `Symbol > colors/white`  |
-|  `$orange`   |   `Symbol > colors/orange`  |
-|  `$yellow`   |   `Symbol > colors/yellow`  |
-|  `$green`   |   `Symbol > colors/green`  |
-|  `$turquoise`   |   `Symbol > colors/turquoise`  |
-|  `$blue`   |   `Symbol > colors/blue`  |
-|  `$purple`   |   `Symbol > colors/purple`  |
-|  `$red`   |   `Symbol > colors/red`  |
+|  `$black`   |   `Insert > Bulma/colors/black`  |
+|  `$black-bis`   |   `Insert > Bulma/colors/black-bis`  |
+|  `$black-ter`   |   `Insert > Bulma/colors/black-ter`  |
+|  `$grey-darker`   |   `Insert > Bulma/colors/grey-darker`  |
+|  `$grey-dark`   |   `Insert > Bulma/colors/grey-dark`  |
+|  `$grey`   |   `Insert > Bulma/colors/grey`  |
+|  `$grey-light`   |   `Insert > Bulma/colors/grey-light`  |
+|  `$grey-lighter`   |   `Insert > Bulma/colors/grey-lighter`  |
+|  `$white-ter`   |   `Insert > Bulma/colors/white-ter`  |
+|  `$white-bis`   |   `Insert > Bulma/colors/white-bis`  |
+|  `$white`   |   `Insert > Bulma/colors/white`  |
+|  `$orange`   |   `Insert > Bulma/colors/orange`  |
+|  `$yellow`   |   `Insert > Bulma/colors/yellow`  |
+|  `$green`   |   `Insert > Bulma/colors/green`  |
+|  `$turquoise`   |   `Insert > Bulma/colors/turquoise`  |
+|  `$cyan`   |   `Insert > Bulma/colors/cyan`  |
+|  `$blue`   |   `Insert > Bulma/colors/blue`  |
+|  `$purple`   |   `Insert > Bulma/colors/purple`  |
+|  `$red`   |   `Insert > Bulma/colors/red`  |
 
 #### Derived colors 
 
@@ -45,13 +55,14 @@ Bulma version : **v0.5.1**
 
 | Bulma variable | Symbol path |
 |:--|:--|
-| `$primary` | `Symbol > colors/primary` |
-| `$info` | `Symbol > colors/info` |
-| `$success` | `Symbol > colors/success` |
-| `$warning` | `Symbol > colors/warning` |
-| `$danger` | `Symbol > colors/danger` |
-| `$light` | `Symbol > colors/light` |
-| `$dark` | `Symbol > colors/dark` |
+| `$primary` | `Insert > Bulma/colors/primary` |
+| `$info` | `Insert > Bulma/colors/info` |
+| `$link` | `Insert > Bulma/colors/link` |
+| `$success` | `Insert > Bulma/colors/success` |
+| `$warning` | `Insert > Bulma/colors/warning` |
+| `$danger` | `Insert > Bulma/colors/danger` |
+| `$light` | `Insert > Bulma/colors/light` |
+| `$dark` | `Insert > Bulma/colors/dark` |
 
 
 ### Typography helpers
@@ -62,9 +73,9 @@ Bulma version : **v0.5.1**
 
 You have all sizes (`is-size-1` to `is-size-7`), all primary colors (`has-text-black` to `has-text-danger`), all alignments (~~lawful good to chaotic evil~~ `has-text-left`, `has-text-centered` and `has-text-right`).
 
-All these variants are available through `Symbol > typography`.
+All these variants are available through `Insert > Bulma/typography`.
 
-E.g.: for a text with Bulma classes `.has-text-danger.is-size-3.has-text-centered`, the Symbol to insert is found at `Symbol > typography/has-text-danger/is-size-3 has-text-c`
+E.g.: for a text with Bulma classes `.has-text-danger.is-size-3.has-text-centered`, the Symbol to insert is found at `Insert > Bulma/typography/has-text-danger/is-size-3 has-text-c`
 
 #### Remarks
 
@@ -80,7 +91,7 @@ No responsive variants have been added, it wouldn't be possible due to Sketch li
 
 [Bulma ref.](http://bulma.io/documentation/form/general/)
 
-**All generic form fields, found at `Symbol > form/field/`**
+**All generic form fields, found at `Insert > Bulma/form/field/`**
 
 There are 4 size variants for 2 types of fields :
 
@@ -93,7 +104,7 @@ For the icons variants on the input fields, see next section, [Input](#input).
 
 **Radio** and **checkbox** fields are also available, though they do not have size variants. They can be used as-is (change the text in the Overrides panel), or if you need styled text (bold, link color…) you have to `Detach from Symbol`.
 
-You can find labels in `Symbol > form/label/`.
+You can find labels in `Insert > Bulma/form/label/`.
 
 File upload inputs haven't been made available as fields.
 
@@ -106,7 +117,7 @@ File upload inputs haven't been made available as fields.
 
 [Bulma ref.](http://bulma.io/documentation/form/input/)
 
-**Text inputs and variants, found at `Symbol > form/control/input/`**
+**Text inputs and variants, found at `Insert > Bulma/form/control/input/`**
 
 There are 4 size variants, for each of which there is one disabled variant.
 
@@ -121,7 +132,7 @@ See the [icon element](#icon) to learn more about changing the icon displayed.
 
 [Bulma ref.](http://bulma.io/documentation/form/textarea/)
 
-**Multiline textarea control, found at `Symbol > form/control/textarea/`**
+**Multiline textarea control, found at `Insert > Bulma/form/control/textarea/`**
 
 There are 4 size variants, for each of which there is one disabled variant.
 
@@ -133,7 +144,7 @@ The text can be changed in the Overrides panel. Because of limitations in Sketch
 
 [Bulma ref.](http://bulma.io/documentation/form/select/)
 
-**A styled Select element, found at `Symbol > form/control/select`**
+**A styled Select element, found at `Insert > Bulma/form/control/select`**
 
 *Multiple select is currently unavailable.*
 
@@ -150,7 +161,7 @@ See the [icon element](#icon) to learn more about changing the icon displayed.
 
 [Bulma ref.](http://bulma.io/documentation/form/checkbox/)
 
-**Radio control, found at `Symbol > form/control/checkbox`**
+**Radio control, found at `Insert > Bulma/form/control/checkbox`**
 
 One checked variant is available.
 
@@ -159,7 +170,7 @@ One checked variant is available.
 
 [Bulma ref.](http://bulma.io/documentation/form/radio/)
 
-**Radio control, found at `Symbol > form/control/radio`**
+**Radio control, found at `Insert > Bulma/form/control/radio`**
 
 One checked variant is available.
 
@@ -168,7 +179,7 @@ One checked variant is available.
 
 [Bulma ref.](http://bulma.io/documentation/form/file/)
 
-**Custom file upload input, found at `Symbol > form/control/file/`**
+**Custom file upload input, found at `Insert > Bulma/form/control/file/`**
 
 The file upload input exists in 4 size variants, the option to display the file name (left or right), the option to display it boxed, or boxed with the file name. 20 different combinations.
 
@@ -184,15 +195,15 @@ To display an input with the CTA and the name, you have to combine the right `fi
 
 [Bulma ref.](http://bulma.io/documentation/elements/box/)
 
-**A simple white box to be found at `Symbol > elements/box`. No variants, nothing else.**
+**A simple white box to be found at `Insert > Bulma/elements/box`. No variants, nothing else.**
 
 ### Button
 
 [Bulma ref.](http://bulma.io/documentation/elements/button/)
 
-**All the buttons can be found at `Symbol > elements/button/`**
+**All the buttons can be found at `Insert > Bulma/elements/button/`**
 
-The default button is `Symbol > elements/button/default`. There are variants by sizes : `small`, `default`, `medium` and `large`, and there are variants for buttons with icons : `icon`, `icon-left` and `icon-right`.
+The default button is `Insert > Bulma/elements/button/default`. There are variants by sizes : `small`, `default`, `medium` and `large`, and there are variants for buttons with icons : `icon`, `icon-left` and `icon-right`.
 
 Each variant can be customised in various ways, through the Overrides panel.
 
@@ -201,7 +212,7 @@ Each variant can be customised in various ways, through the Overrides panel.
 - **background** is used to change the background color through a color Symbol
 - **border-color** is used to change the border color through a color Symbol
 
-When using a derived color (like `Symbol > colors/primary`) you will have another override choice (like `primary color`: `colors/turquoise`). Don’t change it.
+When using a derived color (like `Insert > Bulma/colors/primary`) you will have another override choice (like `primary color`: `colors/turquoise`). Don’t change it.
 
 Buttons have three variants with icons. Two of them display text and icon (icon to the left or to the right of the text) one displays only an icon in a square button.
 
@@ -219,13 +230,13 @@ Currently unavailable.
 
 [Bulma ref.](http://bulma.io/documentation/elements/delete/)
 
-**A delete cross in a semi-transparent circle, available in 4 sizes at `Symbol > elements/delete`**
+**A delete cross in a semi-transparent circle, available in 4 sizes at `Insert > Bulma/elements/delete`**
 
 ### Icon
 
 [Bulma ref.](http://bulma.io/documentation/elements/icon/)
 
-**FontAwesome icons displayed in containers, available at `Symbol > elements/icon`.**
+**FontAwesome icons displayed in containers, available at `Insert > Bulma/elements/icon`.**
 
 There are 4 container variants, each container has up to 4 size variants, and each size has 8 color variants.
 
@@ -245,17 +256,17 @@ Currently unavailable.
 
 [Bulma ref.](http://bulma.io/documentation/elements/notification/)
 
-**A simple notification to be found at `Symbol > elements/notification`**
+**A simple notification to be found at `Insert > Bulma/elements/notification`**
 
 There are two Symbols for this element. The background and the complete notification.
 
-How to use? Insert `Symbol > elements/notification/notification` and change the text through the Overrides panel. If you need bold & links, you'll have to *Detach from Symbol* so you can edit the text. The rest of the group will be the `notification-layout` Symbol.
+How to use? Insert `Insert > Bulma/elements/notification/notification` and change the text through the Overrides panel. If you need bold & links, you'll have to *Detach from Symbol* so you can edit the text. The rest of the group will be the `notification-layout` Symbol.
 
 ### Progress
 
 [Bulma ref.](http://bulma.io/documentation/elements/progress/)
 
-**A progress bar, found at `Symbol > elements/progress`. Exists in 4 sizes.**
+**A progress bar, found at `Insert > Bulma/elements/progress`. Exists in 4 sizes.**
 
 You can change the colors of the progress and the background through the Overrides panel. If you need to change the progress width, you'll have to *Detach from Symbol*.
 
@@ -269,7 +280,7 @@ Currently unavailable.
 
 [Bulma ref.](http://bulma.io/documentation/elements/tag/)
 
-**Small tag labels, found at `Symbol > elements/tag`**
+**Small tag labels, found at `Insert > Bulma/elements/tag`**
 
 There are 3 size variants, 3 addon variants (no addon, left-side addon or right-side addon), and 1 round border alternative for each of these variants.
 
@@ -293,7 +304,8 @@ Each of these Symbols can be customised via the Overrides panel :
 
 #### TODO :
 
-Should I make Symbols for title/subtitle groupings? The right margin could be useful.
+- Instead of `Style Text` (not available through Library Symbols), using Symbols will be better
+- Symbols for title/subtitle groupings. The right margin could be useful.
 
 ---
 
